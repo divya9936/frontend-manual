@@ -151,7 +151,6 @@ MIT — Use, modify, and share freely.
 
 - Found a bug? [Open an issue](https://github.com/divya9936/frontend-manual/issues)
 - Have an idea? [Start a discussion](https://github.com/divya9936/frontend-manual/discussions)
-- Want to chat? Reach out on [Twitter/X](https://twitter.com/divya9936)
 
 ---
 
