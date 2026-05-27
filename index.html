@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frontend Manual — Practical Wisdom for Real Development</title>
+    <meta
+      name="description"
+      content="A curated collection of practical frontend development knowledge learned through experience. React patterns, data integrity, performance, and more — written for developers shipping real products."
+    />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧠</text></svg>"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Background Glows -->
+    <div class="bg-glow bg-glow--purple"></div>
+    <div class="bg-glow bg-glow--blue"></div>
+    <div class="bg-glow bg-glow--cyan"></div>
+
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+      <div class="navbar__inner">
+        <a href="index.html" class="navbar__logo">
+          <div class="navbar__logo-icon">📘</div>
+          Frontend Manual
+        </a>
+        <ul class="navbar__links">
+          <li><a href="index.html" data-nav="all" class="active">All</a></li>
+          <li><a href="index.html" data-nav="react">React</a></li>
+          <li><a href="index.html" data-nav="performance">Performance</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contribute.html">Contribute</a></li>
+        </ul>
+        <div class="navbar__search">
+          <span class="navbar__search-icon">🔍</span>
+          <input
+            type="text"
+            id="search-input"
+            placeholder="Search wisdom..."
+            autocomplete="off"
+            aria-label="Search lessons"
+          />
+        </div>
+        <button id="theme-toggle" aria-label="Toggle dark mode">🌙</button>
+        <button class="navbar__hamburger" id="hamburger" aria-label="Menu">
+          ☰
+        </button>
+      </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobile-menu">
+      <a href="#" data-nav="all">📚 All Wisdom</a>
+      <a href="#" data-nav="data-integrity">🛡️ Data Integrity</a>
+      <a href="#" data-nav="api-network">🌐 API & Network</a>
+      <a href="#" data-nav="state-management">⚡ State Management</a>
+      <a href="#" data-nav="react">⚛️ React Patterns</a>
+      <a href="#" data-nav="performance">🚀 Performance</a>
+      <a href="#" data-nav="css-layout">🎨 CSS & Layout</a>
+      <a href="#" data-nav="debugging">🔍 Debugging</a>
+      <a href="#" data-nav="security">🔒 Security</a>
+      <a href="#" data-nav="architecture">🏗️ Architecture</a>
+      <a href="#" data-nav="ux-engineering">✨ UX Engineering</a>
+    </div>
+
+    <!-- Hero -->
+    <header class="hero">
+      <div class="hero__badge">
+        <span>📘</span> Practical knowledge from shipping real products
+      </div>
+      <h1 class="hero__title">
+        Your Frontend<br /><span class="gradient-text">Development Manual</span>
+      </h1>
+      <p class="hero__subtitle">
+        Hard-won knowledge from real development. Learn the patterns, practices,
+        and pitfalls that experienced developers know. Everything you should
+        have learned from the course, but didn't.
+      </p>
+      <div class="hero__stats">
+        <div class="hero__stat">
+          <div class="hero__stat-number" id="stat-cards">0</div>
+          <div class="hero__stat-label">Lessons</div>
+        </div>
+        <div class="hero__stat">
+          <div class="hero__stat-number" id="stat-categories">0</div>
+          <div class="hero__stat-label">Categories</div>
+        </div>
+        <div class="hero__stat">
+          <div class="hero__stat-number" id="stat-react">0</div>
+          <div class="hero__stat-label">React Specific</div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Filter Bar -->
+    <div class="filter-bar">
+      <div class="filter-bar__inner" id="filter-bar">
+        <!-- Rendered by JS -->
+      </div>
+    </div>
+
+    <!-- Cards Section -->
+    <main class="section" id="wisdom-section">
+      <div class="section__header">
+        <div class="section__eyebrow" style="color: var(--accent-purple-light)">
+          💡 Essential Knowledge
+        </div>
+        <h2 class="section__title">Practical Lessons</h2>
+        <p class="section__desc">
+          Each lesson is a real-world principle that saves time, prevents bugs,
+          and improves your code quality. Distilled from years of shipping
+          products.
+        </p>
+      </div>
+      <div class="cards-grid" id="cards-grid">
+        <!-- Rendered by JS -->
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p class="footer__text">
+        Made for every frontend developer building real products.<br />
+        <small>Have a wisdom to add? This is an open knowledge base.</small>
+      </p>
+    </footer>
+
+    <!-- Scroll to top -->
+    <button class="scroll-top" id="scroll-top" aria-label="Scroll to top">
+      ↑
+    </button>
+
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
