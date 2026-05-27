@@ -7,7 +7,7 @@ Thank you for considering contributing to Frontend Manual! Here's how to add you
 ### 1. Fork & Clone
 
 ```bash
-git clone https://github.com/yourusername/frontend-manual.git
+git clone https://github.com/divya9936/frontend-manual.git
 cd frontend-manual
 ```
 

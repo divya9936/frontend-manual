@@ -53,7 +53,7 @@ Have a lesson? We'd love it! Here's how:
 ### 1. Fork & Clone
 
 ```bash
-git clone https://github.com/yourusername/frontend-manual.git
+git clone https://github.com/divya9936/frontend-manual.git
 cd frontend-manual
 ```
 
@@ -106,7 +106,7 @@ Open a PR on GitHub. We'll review and merge if it fits our guidelines.
 ## 📂 Project Structure
 
 ```
-frontend-help/
+frontend-manual/
 ├── index.html          # Main page with lesson grid
 ├── about.html          # About the project
 ├── contribute.html     # Contribution guide
@@ -141,7 +141,7 @@ frontend-help/
 
 ## 🌐 Live Demo
 
-Visit the live site: [Frontend Manual](https://yourdomain.com)
+Visit the live site: [Frontend Manual](https://divya9936.github.io/frontend-manual/)
 
 ## 📄 License
 
@@ -149,9 +149,9 @@ MIT — Use, modify, and share freely.
 
 ## 💬 Questions?
 
-- Found a bug? [Open an issue](https://github.com/yourusername/frontend-manual/issues)
-- Have an idea? [Start a discussion](https://github.com/yourusername/frontend-manual/discussions)
-- Want to chat? Reach out on [Twitter/X](https://twitter.com/yourusername)
+- Found a bug? [Open an issue](https://github.com/divya9936/frontend-manual/issues)
+- Have an idea? [Start a discussion](https://github.com/divya9936/frontend-manual/discussions)
+- Want to chat? Reach out on [Twitter/X](https://twitter.com/divya9936)
 
 ---
 
